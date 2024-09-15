@@ -1,0 +1,28 @@
+# VSCode
+.vscode/
+
+# Node modules
+node_modules/
+
+# Environment variables (ignore all env files except .env.example)
+.env
+.env.*
+!.env.example
+
+# Prisma
+prisma/
+prisma-migrations/
+*.db
+
+# Jest
+coverage/
+
+# Babel
+.babel-cache/
+*.babelrc
+
+# Winston (logs)
+logs/
+*.log
+
+docs/
